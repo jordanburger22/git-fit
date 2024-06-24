@@ -1,0 +1,295 @@
+body{
+  margin: 0;
+  color: #d4d4dc;
+  background-color: #1d1e22;
+  font-family: 'Alata', sans-serif;
+}
+
+/* Login */
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px; 
+}
+
+.login-container > p{
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.login-container > h1{
+  font-size: 90px;
+  color: red;
+  text-shadow: 4px 4px 2px white;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Auth Form */
+
+.auth-form-container{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-size: 20px;
+  
+}
+
+.auth-form-container > input{
+  margin-bottom: 5px;
+  width: 200px;
+  height: 30px;
+}
+
+/* Nav bar */
+
+.nav-bar{
+  padding: 20px;
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.nav-link{
+  color: #d4d4dc;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.nav-bar > h1{
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  text-shadow: 1px 1px 2px #d4d4dc;
+  font-size: 40px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Workout Log */
+
+.log-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+.log-container > h1{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.workout-log-link{
+  color: #d4d4dc;
+  text-decoration: none;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.workout-log{
+  border: #d4d4dc solid 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.workout-log-grid{
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
+.workout-log-column1{
+  background-image: url(https://images.unsplash.com/photo-1608947325823-976b1c65d14c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+}
+
+.no-workouts{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Workout Details */
+
+.workout-details-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.workout-details-grid{
+  display: grid;
+  grid-template-columns: 33% 67%;
+  height: 90vh;
+}
+
+.detailed-exercise{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  border: #d4d4dc solid 2px;
+  margin-bottom: 15px;
+}
+
+.detailed-exercise-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.workout-details-column1{
+  background-image: url(https://images.unsplash.com/photo-1632758243488-7e6f9173cfa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+}
+
+/* Log Workout */
+
+.exercise-inputs{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.exercise-inputs > input{
+  margin-bottom: 10px;
+}
+
+.log-workouts-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.new-workout-form > button{
+  margin-top: 15px;
+}
+
+.new-workout-form > input{
+  margin-top: 10px;
+}
+
+.new-workout-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-workouts-grid{
+  display: grid;
+  grid-template-columns: 33% 67%;
+  height: 90vh;
+}
+
+.log-workouts-column1{
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1590487988256-9ed24133863e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80);
+}
+
+/* Home */
+
+.home-container-div{
+  display: grid;
+  grid-template-columns: 34% 66%;
+  height: 90vh;
+}
+
+.column1{
+  background-image: url(https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column2 > h1{
+  font-size: 80px;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  text-shadow: 1px 1px 2px white;
+}
+
+.column2 > h3{
+  font-size: 40px;
+  margin: 0;
+}
+
+.column2 > h2{
+  font-size: 30px;
+}
+
+.column2 > ul{
+  font-size: 20px;
+}
+
+/* All Exercises List */
+
+
+.all-exercises-filter{
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.all-exercises-list{
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  padding: 20px;
+}
+
+.exercise-info{
+  border: #d4d4dc solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+
+/* Add Workout */
+
+.add-workout-grid{
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
+.add-workout-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-workout-container > h1{
+  font-size: 50px;
+}
+
+.add-workout-column1{
+  background-image: url(https://images.unsplash.com/photo-1603734220970-25a0b335ca01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+}
